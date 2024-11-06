@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #1D2A44; /* Deep blue background */
+    background-color: #121C2A; /* Dark background with a tech vibe */
     color: #F2F4F8; /* Light grayish-white text for contrast */
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ header {
     background-color: #0D1A2A; /* Darker blue background for the header */
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for header */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for header */
 }
 
 header .logo {
@@ -25,124 +25,29 @@ header .logo {
 #about {
     padding: 60px 20px;
     text-align: center;
-    background-color: #1D2A44; /* Deep blue background */
+    background-color: #1D2A44; /* Deep blue background for the main section */
 }
 
 #about h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #FFB74D; /* Accent color for headings */
+    color: #00B0FF; /* Vibrant blue for headings */
 }
 
 #about p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: #B0BEC5; /* Lighter text color */
+    color: #A1B2C3; /* Light grayish text */
 }
 
 /* Services Section */
 #services {
     padding: 60px 20px;
-    background-color: #263238; /* Slightly lighter blue-gray background */
+    background-color: #263238; /* Dark blue-gray background */
 }
 
 #services h2 {
     font-size: 2.5rem;
     font-weight: 500;
-    margin-bottom: 30px;
-    text-align: center;
-    color: #FFB74D; /* Accent color for service titles */
-}
-
-.service-cards {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.card {
-    background-color: #2C3E50; /* Darker background for cards */
-    color: #FFFFFF; /* White text for contrast */
-    padding: 30px;
-    border-radius: 10px;
-    width: 30%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for card */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-10px); /* Lift the card on hover */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow */
-}
-
-.card h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.card p {
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-/* Social Links Section */
-#socials {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #1D2A44;
-}
-
-#socials h2 {
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 30px;
-    color: #FFB74D; /* Accent color for heading */
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.social-link {
-    color: #FFB74D; /* Accent color for links */
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
-}
-
-.social-link:hover {
-    color: #FF5722; /* Change to a vibrant orange on hover */
-}
-
-/* Contact Section */
-#contact {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #263238;
-}
-
-#contact p {
-    font-size: 1.2rem;
-    color: #B0BEC5;
-}
-
-#contact a {
-    color: #FFB74D; /* Accent color for email link */
-    text-decoration: none;
-    font-weight: 500;
-}
-
-#contact a:hover {
-    color: #FF5722; /* Highlight color on hover */
-}
-
-/* Footer */
-footer {
-    background-color: #0D1A2A; /* Dark blue footer */
-    color: #B0BEC5; /* Lighter text in the footer */
-    padding:
+    marg
