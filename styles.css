@@ -1,128 +1,148 @@
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4; /* Light background for the body */
-    color: #333; /* Dark text color for readability */
+    background-color: #1D2A44; /* Deep blue background */
+    color: #F2F4F8; /* Light grayish-white text for contrast */
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 /* Header */
 header {
-    background-color: #000000; /* Black background for the header */
+    background-color: #0D1A2A; /* Darker blue background for the header */
     padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for header */
 }
 
 header .logo {
-    max-width: 200px; /* Adjust the logo size as needed */
+    max-width: 250px; /* Adjusted logo size */
+    filter: brightness(0) invert(1); /* Invert logo colors to stand out against dark background */
 }
 
 /* Main Section */
 #about {
-    padding: 50px 20px;
+    padding: 60px 20px;
     text-align: center;
+    background-color: #1D2A44; /* Deep blue background */
 }
 
 #about h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 700;
     margin-bottom: 20px;
+    color: #FFB74D; /* Accent color for headings */
 }
 
 #about p {
     font-size: 1.2rem;
-    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #B0BEC5; /* Lighter text color */
 }
 
 /* Services Section */
 #services {
-    padding: 50px 20px;
+    padding: 60px 20px;
+    background-color: #263238; /* Slightly lighter blue-gray background */
 }
 
 #services h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
+    color: #FFB74D; /* Accent color for service titles */
 }
 
 .service-cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
-    background-color: #ffffff; /* Light background for service cards */
-    color: #333; /* Dark text for cards */
-    padding: 20px;
+    background-color: #2C3E50; /* Darker background for cards */
+    color: #FFFFFF; /* White text for contrast */
+    padding: 30px;
     border-radius: 10px;
     width: 30%;
-    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow */
 }
 
 .card h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
 .card p {
     font-size: 1rem;
+    line-height: 1.5;
 }
 
 /* Social Links Section */
 #socials {
-    padding: 50px 20px;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #1D2A44;
 }
 
 #socials h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #FFB74D; /* Accent color for heading */
 }
 
 .social-links {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .social-link {
-    color: #333; /* Dark color for social links */
+    color: #FFB74D; /* Accent color for links */
     text-decoration: none;
-    margin: 0 15px;
     font-size: 1.2rem;
+    transition: color 0.3s ease;
 }
 
 .social-link:hover {
-    color: #ff5722; /* Highlight color on hover */
+    color: #FF5722; /* Change to a vibrant orange on hover */
 }
 
 /* Contact Section */
 #contact {
-    padding: 50px 20px;
+    padding: 60px 20px;
     text-align: center;
+    background-color: #263238;
 }
 
 #contact p {
     font-size: 1.2rem;
+    color: #B0BEC5;
+}
+
+#contact a {
+    color: #FFB74D; /* Accent color for email link */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#contact a:hover {
+    color: #FF5722; /* Highlight color on hover */
 }
 
 /* Footer */
 footer {
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px 0;
-    text-align: center;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* Links */
-a {
-    color: #ff5722; /* Accent color for links */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
+    background-color: #0D1A2A; /* Dark blue footer */
+    color: #B0BEC5; /* Lighter text in the footer */
+    padding:
