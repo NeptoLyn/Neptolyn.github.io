@@ -8,51 +8,59 @@ body {
     line-height: 1.6;
 }
 
-/* Header - Tech-Inspired Look */
+/* Header */
 header {
     background-color: #0D1A2A;
-    padding: 20px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Ensures logo and navigation can be placed to the left */
+    padding: 20px 0;
+    text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Logo Styling */
-header .logo-link {
-    display: flex;
-    align-items: center;
-}
-
 header .logo {
-    max-width: 180px; /* Adjust logo size for more balance */
-    filter: brightness(0) invert(1); /* Invert colors for contrast */
-    transition: transform 0.3s ease;
+    max-width: 220px;
+    height: auto;
+    filter: brightness(0) invert(1); /* Invert logo colors to stand out */
+    cursor: pointer;
+    transition: opacity 0.3s ease;
 }
 
 header .logo:hover {
-    transform: scale(1.05); /* Hover effect */
+    opacity: 0.8;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0D1A2A;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 20px;
+    font-size: 1.2rem;
+    color: #F2F4F8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #00B0FF;
 }
 
 /* Main Section */
 #about {
     padding: 60px 20px;
     text-align: center;
-    background: linear-gradient(135deg, #1D2A44, #0A1829); /* Gradient for depth */
-    border-bottom: 2px solid #2D3A4E; /* Slight divider line */
-    transition: background 0.5s ease-in-out;
+    background: linear-gradient(135deg, #1D2A44, #0A1829);
+    border-bottom: 2px solid #2D3A4E;
 }
 
 #about h1 {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #00B0FF; /* Vibrant blue for headings */
-    transition: color 0.3s ease;
-}
-
-#about h1:hover {
-    color: #FF4500; /* Hover effect for engagement */
+    color: #00B0FF;
 }
 
 #about p {
@@ -64,7 +72,8 @@ header .logo:hover {
 /* Services Section */
 #services {
     padding: 60px 20px;
-    background-color: #263238; /* Dark blue-gray background */
+    background-color: #263238;
+    text-align: center;
 }
 
 #services h2 {
@@ -76,23 +85,21 @@ header .logo:hover {
 
 #services .service-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
-    margin-top: 20px;
 }
 
 #services .card {
-    background-color: #37474F; /* Slightly lighter dark gray */
+    background-color: #37474F;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #services .card:hover {
-    transform: translateY(-10px); /* Hover effect for elevation */
+    transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-    background-color: #455A64; /* Slight background color change */
 }
 
 /* Social Links Section */
@@ -108,19 +115,19 @@ header .logo:hover {
     color: #F2F4F8;
     padding: 10px 20px;
     border-radius: 30px;
-    background-color: #00B0FF; /* Bright accent color */
+    background-color: #00B0FF;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 #socials .social-link:hover {
     background-color: #FF4500;
-    transform: scale(1.05); /* Subtle scaling effect */
+    transform: scale(1.05);
 }
 
 /* Contact Section */
 #contact {
-    background-color: #263238; /* Dark background for contrast */
+    background-color: #263238;
     padding: 60px 20px;
     text-align: center;
 }
@@ -152,7 +159,7 @@ footer {
     color: #A1B2C3;
     padding: 20px;
     text-align: center;
-    border-top: 2px solid #2D3A4E; /* Divider between footer and content */
+    border-top: 2px solid #2D3A4E;
 }
 
 footer p {
@@ -162,19 +169,20 @@ footer p {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-    header {
-        padding: 20px;
+    #services .service-cards {
+        grid-template-columns: 1fr;
     }
 
     #about h1 {
-        font-size: 2.5rem; /* Smaller heading size on mobile */
+        font-size: 2.5rem;
     }
 
     #about p {
-        font-size: 1rem; /* Adjust text size for better readability */
+        font-size: 1rem;
     }
 
-    #services .service-cards {
-        grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    nav {
+        flex-direction: column;
+        align-items: center;
     }
 }
