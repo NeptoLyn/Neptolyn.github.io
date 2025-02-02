@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif; /* Use Roboto for the body text */
+    font-family: 'Roboto', sans-serif;
     background-color: #001f3d; /* Navy blue background */
     color: #F2F4F8; /* Light grayish-white text for contrast */
     margin: 0;
@@ -24,6 +24,34 @@ body {
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+/* Header */
+header {
+    background-color: #0D1A2A;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0D1A2A;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 20px;
+    font-size: 1.2rem;
+    color: #F2F4F8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #00B0FF;
 }
 
 /* Main Section */
@@ -52,7 +80,6 @@ body {
     font-size: 1.2rem;
     margin-bottom: 20px;
     color: #A1B2C3;
-    text-transform: uppercase;
 }
 
 /* Glowing text effect */
@@ -179,7 +206,6 @@ body {
 
 #contact a:hover {
     color: #FF4500;
-    text-shadow: 0 0 10px #FF4500; /* Glowing text effect */
 }
 
 /* Footer */
@@ -210,8 +236,8 @@ footer p {
         font-size: 1rem;
     }
 
-    /* Centering nav items vertically */
-    body {
-        justify-content: flex-start;
+    nav {
+        flex-direction: column;
+        align-items: center;
     }
 }
