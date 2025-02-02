@@ -43,6 +43,7 @@ body {
     color: #00B0FF;
     text-transform: uppercase; /* Gives it a more technical vibe */
     text-shadow: 0 0 10px #00B0FF, 0 0 20px #00B0FF; /* Glowing text effect */
+    animation: textGlow 1.5s ease-in-out infinite alternate;
 }
 
 #about p {
@@ -50,6 +51,12 @@ body {
     margin-bottom: 20px;
     color: #A1B2C3;
     text-transform: uppercase; /* More cyber feel */
+}
+
+/* Glowing text effect */
+@keyframes textGlow {
+    0% { text-shadow: 0 0 10px #00B0FF, 0 0 20px #00B0FF; }
+    100% { text-shadow: 0 0 20px #00FF00, 0 0 40px #00FF00; }
 }
 
 /* Services Section */
@@ -81,11 +88,19 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: cardBounce 1s ease-in-out;
 }
 
 #services .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Card Bounce Animation */
+@keyframes cardBounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
 }
 
 #services .card h3 {
