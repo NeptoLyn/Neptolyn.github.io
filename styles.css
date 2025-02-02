@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+    font-family: 'Roboto', sans-serif; /* Subtle and clean font for the rest */
     background-color: #001f3d; /* Navy blue background */
     color: #F2F4F8; /* Light grayish-white text for contrast */
     margin: 0;
@@ -36,21 +36,23 @@ body {
 }
 
 #about h1 {
+    font-family: 'Orbitron', sans-serif; /* Keep Orbitron for the title */
     font-size: 4rem;
     font-weight: 700;
-    letter-spacing: 3px; /* Adds some space for a more cyber feel */
+    letter-spacing: 3px;
     margin-bottom: 20px;
     color: #00B0FF;
-    text-transform: uppercase; /* Gives it a more technical vibe */
+    text-transform: uppercase;
     text-shadow: 0 0 10px #00B0FF, 0 0 20px #00B0FF; /* Glowing text effect */
     animation: textGlow 1.5s ease-in-out infinite alternate;
 }
 
 #about p {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for the body text */
     font-size: 1.2rem;
     margin-bottom: 20px;
     color: #A1B2C3;
-    text-transform: uppercase; /* More cyber feel */
+    text-transform: uppercase;
 }
 
 /* Glowing text effect */
@@ -67,6 +69,7 @@ body {
 }
 
 #services h2 {
+    font-family: 'Orbitron', sans-serif; /* Keep Orbitron for the title */
     font-size: 3rem;
     font-weight: 500;
     color: #00B0FF;
@@ -104,6 +107,7 @@ body {
 }
 
 #services .card h3 {
+    font-family: 'Orbitron', sans-serif; /* Keep Orbitron for the card title */
     font-size: 1.6rem;
     font-weight: 600;
     color: #00B0FF;
@@ -112,6 +116,7 @@ body {
 }
 
 #services .card p {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for the card text */
     font-size: 1rem;
     color: #A1B2C3;
     letter-spacing: 1px;
@@ -164,6 +169,7 @@ body {
 }
 
 #contact a {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for the contact email */
     color: #00B0FF;
     font-weight: bold;
     text-decoration: none;
