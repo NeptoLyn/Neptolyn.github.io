@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
     background-color: #001f3d; /* Navy blue background */
     color: #F2F4F8; /* Light grayish-white text for contrast */
     margin: 0;
@@ -14,8 +14,6 @@ body {
     text-align: center;
 }
 
-/* Navigation - Removed as per request */
-
 /* Main Section */
 #about {
     padding: 60px 20px;
@@ -25,16 +23,20 @@ body {
 }
 
 #about h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 700;
+    letter-spacing: 3px; /* Adds some space for a more cyber feel */
     margin-bottom: 20px;
     color: #00B0FF;
+    text-transform: uppercase; /* Gives it a more technical vibe */
+    text-shadow: 0 0 10px #00B0FF, 0 0 20px #00B0FF; /* Glowing text effect */
 }
 
 #about p {
     font-size: 1.2rem;
     margin-bottom: 20px;
     color: #A1B2C3;
+    text-transform: uppercase; /* More cyber feel */
 }
 
 /* Services Section */
@@ -45,10 +47,12 @@ body {
 }
 
 #services h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 500;
     color: #00B0FF;
     margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #services .service-cards {
@@ -70,6 +74,20 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
+#services .card h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #00B0FF;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#services .card p {
+    font-size: 1rem;
+    color: #A1B2C3;
+    letter-spacing: 1px;
+}
+
 /* Social Links Section */
 #socials .social-links {
     display: flex;
@@ -86,11 +104,14 @@ body {
     background-color: #00B0FF;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #socials .social-link:hover {
     background-color: #FF4500;
     transform: scale(1.05);
+    box-shadow: 0 0 10px #FF4500; /* Glowing hover effect */
 }
 
 /* Contact Section */
@@ -104,6 +125,8 @@ body {
     font-size: 2.5rem;
     color: #00B0FF;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #contact p {
@@ -115,10 +138,13 @@ body {
     color: #00B0FF;
     font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #contact a:hover {
     color: #FF4500;
+    text-shadow: 0 0 10px #FF4500; /* Glowing text effect */
 }
 
 /* Footer */
