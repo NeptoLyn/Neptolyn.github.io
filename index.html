@@ -3,63 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neptolyn Clone</title>
+    <title>Neptolyn</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background-color: #121212;
-            color: white;
-        }
-        header {
-            background-color: #1E1E1E;
-            padding: 20px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #00AEEF;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 50px 20px;
-        }
-        .service-card {
-            display: inline-block;
-            background: #1E1E1E;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 10px;
-            box-shadow: 3px 3px 15px rgba(0,0,0,0.3);
-            transition: transform 0.3s;
-        }
-        .service-card:hover {
-            transform: scale(1.05);
-            background: #00AEEF;
-        }
-        footer {
-            background-color: #1E1E1E;
-            color: white;
-            padding: 15px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
+    <div class="network-background"></div>
+
     <header>
-        <h1>Neptolyn Clone</h1>
+        <div class="logo">
+            <img src="logo.png" alt="Neptolyn Logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -69,30 +22,32 @@
             </ul>
         </nav>
     </header>
-    
+
     <section id="home">
         <h2>Innovative Solutions for Your Business</h2>
         <p>Empowering businesses with cutting-edge technology and strategies.</p>
     </section>
-    
+
     <section id="services">
         <h2>Our Expertise</h2>
-        <div class="service-card">Software Development</div>
-        <div class="service-card">Cloud Solutions</div>
-        <div class="service-card">Cybersecurity</div>
-        <div class="service-card">AI & Machine Learning</div>
+        <div class="service-grid">
+            <div class="service-card">Software Development</div>
+            <div class="service-card">Cloud Solutions</div>
+            <div class="service-card">Cybersecurity</div>
+            <div class="service-card">AI & Machine Learning</div>
+        </div>
     </section>
-    
+
     <section id="about">
         <h2>About Neptolyn</h2>
         <p>We are a team of passionate innovators delivering next-gen solutions to businesses worldwide.</p>
     </section>
-    
+
     <section id="contact">
         <h2>Contact Us</h2>
         <p>Email: info@neptolyn.com | Phone: +123 456 7890</p>
     </section>
-    
+
     <footer>
         <p>&copy; 2025 Neptolyn. All Rights Reserved.</p>
     </footer>
