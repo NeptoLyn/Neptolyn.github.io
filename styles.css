@@ -1,10 +1,10 @@
 /* Dark Theme Colors */
 :root {
-    --primary-color: #2c3e50;
-    --accent-color: #3498db;
-    --background-color: #1a1f2e;
-    --text-color: #ecf0f1;
-    --card-background: rgba(44, 62, 80, 0.8);
+    --primary-color: #000000;
+    --accent-color: #ff0000;
+    --background-color: #000000;
+    --text-color: #ffffff;
+    --card-background: rgba(255, 0, 0, 0.1);
 }
 
 /* Base Styles */
@@ -37,7 +37,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%234498db20' d='M50 50m-45,0a45,45 0 1,0 90,0a45,45 0 1,0-90,0'%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23ff000020' d='M50 50m-45,0a45,45 0 1,0 90,0a45,45 0 1,0-90,0'%3E%3C/svg%3E");
     opacity: 0.15;
     pointer-events: none;
     z-index: 0;
@@ -45,8 +45,8 @@ nav {
 
 /* Section Styles */
 section {
-    min-height: 50vh;
-    padding: 1.5rem 0;
+    min-height: 40vh;
+    padding: 1rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,9 +58,14 @@ section {
     background-color: var(--card-background);
     border-radius: 12px;
     padding: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     transition: transform 0.3s ease;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 18px rgba(255, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.15);
 }
 
 /* Footer Styles */
@@ -84,8 +89,8 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     section {
-        padding: 1rem 0;
-        min-height: 40vh;
+        padding: 0.75rem 0;
+        min-height: 30vh;
     }
     
     .container {
@@ -93,7 +98,7 @@ footer {
     }
     
     .card {
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.5rem;
         padding: 1.25rem;
     }
     
