@@ -59,6 +59,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /* Card Styles */
@@ -126,12 +127,13 @@ h2 {
         padding: 1.5rem 0;
     }
     
-    .service-cards {
-        grid-template-columns: 1fr;
+    .container {
+        padding: 0 0.5rem;
     }
     
-    nav a {
-        padding: 0.5rem 1rem;
+    .card {
+        margin-bottom: 1rem;
+        padding: 1.25rem;
     }
     
     .social-links {
