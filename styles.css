@@ -101,16 +101,25 @@ section {
     text-decoration: none;
     color: var(--text-color);
     font-size: 1rem;
-    transition: transform 0.3s;
+    transition: transform 0.3s, background 0.3s;
+    font-weight: bold;
 }
 
+/* Social Icons */
+.social-card i {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+/* Hover Effects */
 .social-card:hover {
     transform: scale(1.1);
     background: var(--accent-color);
+    color: var(--background-color);
 }
 
-.social-card i {
-    font-size: 1.5rem;
+.social-card:hover i {
+    color: var(--background-color);
 }
 
 /* Footer */
