@@ -82,6 +82,21 @@ section {
     background: var(--accent-color);
 }
 
+/* Contact Icons */
+#contact p {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact i {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
 /* Social Media */
 .social-grid {
     display: flex;
