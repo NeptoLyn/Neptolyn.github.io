@@ -3,99 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="IT Services | Neptolyn">
-    <meta name="keywords" content="Neptolyn, IT services, computer repair, custom PC builds, eco-friendly disposal">
-    <meta name="robots" content="index, follow">
-    <title>Neptolyn</title>
+    <title>Neptolyn Clone</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #121212;
+            color: white;
+        }
+        header {
+            background-color: #1E1E1E;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #00AEEF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .service-card {
+            display: inline-block;
+            background: #1E1E1E;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+            background: #00AEEF;
+        }
+        footer {
+            background-color: #1E1E1E;
+            color: white;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation Section -->
-    <nav>
-        <div class="network-background"></div>
-        <div class="container">
-            <div class="logo">
-                <img src="your-logo-path.jpg" alt="Neptolyn Logo" width="150" height="50">
-            </div>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#socials">Social</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="container">
-            <h1>Welcome to Neptolyn</h1>
-            <p>Tech enthusiast offering top-notch computer services: repairs, upgrades, troubleshooting, and custom builds.</p>
-            <p>Discover our services and reach out today for your quote!</p>
-        </div>
+    <header>
+        <h1>Neptolyn Clone</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Innovative Solutions for Your Business</h2>
+        <p>Empowering businesses with cutting-edge technology and strategies.</p>
     </section>
-
-    <!-- Services Section -->
+    
     <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="service-grid">
-                <div class="service-card">
-                    <h3>PC Builds</h3>
-                    <p>Custom PC builds that can fit any budget.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Eco-friendly Disposal</h3>
-                    <p>Message us for a quote now.</p>
-                </div>
-                <div class="service-card">
-                    <h3>PAT Testing</h3>
-                    <p>Ensure the safety of your electrical appliances with our affordable PAT testing services.</p>
-                </div>
-            </div>
-        </div>
+        <h2>Our Expertise</h2>
+        <div class="service-card">Software Development</div>
+        <div class="service-card">Cloud Solutions</div>
+        <div class="service-card">Cybersecurity</div>
+        <div class="service-card">AI & Machine Learning</div>
     </section>
-
-    <!-- Social Links Section -->
-    <section id="socials">
-        <div class="container">
-            <h2>Connect with Us</h2>
-            <div class="social-grid">
-                <a href="https://www.linkedin.com/in/konstantinos-grigoriadis-k-55b1ee77f/" target="_blank" class="social-card">
-                    <i class="fab fa-linkedin"></i>
-                    <span>LinkedIn</span>
-                </a>
-                <a href="https://www.instagram.com/neptolyn/?hl=en" target="_blank" class="social-card">
-                    <i class="fab fa-instagram"></i>
-                    <span>Instagram</span>
-                </a>
-                <a href="https://www.facebook.com/Neptolyn/" target="_blank" class="social-card">
-                    <i class="fab fa-facebook"></i>
-                    <span>Facebook</span>
-                </a>
-            </div>
-        </div>
+    
+    <section id="about">
+        <h2>About Neptolyn</h2>
+        <p>We are a team of passionate innovators delivering next-gen solutions to businesses worldwide.</p>
     </section>
-
-    <!-- Contact Section -->
+    
     <section id="contact">
-        <div class="container">
-            <h2>Email Us for a Quote</h2>
-            <p>Email us at <a href="mailto:info@neptolyn.com">info@neptolyn.com</a></p>
-        </div>
+        <h2>Contact Us</h2>
+        <p>Email: info@neptolyn.com | Phone: +123 456 7890</p>
     </section>
-
+    
     <footer>
-        <div class="container">
-            <div class="logo">
-                <img src="your-logo-path.jpg" alt="Neptolyn Logo" width="150" height="50">
-            </div>
-            <p>&copy; 2025 Neptolyn. All rights reserved.</p>
-        </div>
+        <p>&copy; 2025 Neptolyn. All Rights Reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
