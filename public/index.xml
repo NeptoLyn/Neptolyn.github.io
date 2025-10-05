@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Neptolyn</title>
-    <link>http://localhost:1313/</link>
+    <link>https://neptolyn.com/</link>
     <description>Recent content in Home on Neptolyn</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://neptolyn.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://neptolyn.com/about/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://neptolyn.com/about/</guid>
       <description>&lt;p&gt;Welcome to &lt;strong&gt;Neptolyn&lt;/strong&gt;!&lt;br&gt;&#xA;I’m passionate about building PCs, repurposing older technology, and experimenting with gadgets.&lt;/p&gt;&#xA;&lt;p&gt;On this site, I’ll share my builds, ideas, and notes learned from working with both cutting-edge hardware and repurposed tech.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://neptolyn.com/contact/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://neptolyn.com/contact/</guid>
       <description>&lt;p&gt;You can reach me through my socials:&lt;/p&gt;&#xA;&lt;style&gt;&#xA;  .social-link {&#xA;    text-decoration: none !important;  /* removes underline */&#xA;    border: none !important;           /* removes border */&#xA;    box-shadow: none !important;       /* in case theme uses shadow underline */&#xA;    display: flex;&#xA;    align-items: center;&#xA;    gap: 8px;&#xA;    font-size: 18px;&#xA;    color: inherit;&#xA;    margin: 10px 0;&#xA;  }&#xA;  .social-link span {&#xA;    text-decoration: none !important;&#xA;    border: none !important;&#xA;    box-shadow: none !important;&#xA;  }&#xA;  .social-link svg {&#xA;    fill: currentColor;&#xA;    transition: fill 0.3s ease, transform 0.2s ease;&#xA;  }&#xA;  .social-link.instagram:hover svg {&#xA;    fill: #E1306C; /* Instagram pink */&#xA;    transform: scale(1.15);&#xA;  }&#xA;  .social-link.facebook:hover svg {&#xA;    fill: #1877F2; /* Facebook blue */&#xA;    transform: scale(1.15);&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;div&gt;&#xA;  &lt;a href=&#34;https://www.instagram.com/neptolyn/&#34; target=&#34;_blank&#34; class=&#34;social-link instagram&#34;&gt;&#xA;    &lt;svg role=&#34;img&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;title&gt;Instagram&lt;/title&gt;&#xA;      &lt;path d=&#34;M12 0C8.74 0 8.333.013 7.052.072 5.775.131 4.905.322 4.179.61c-.75.3-1.385.7-2.021 1.337C1.5 2.585 1.1 3.22.8 3.97c-.288.726-.479 1.596-.538 2.873C.013 8.333 0 8.74 0 12s.013 3.667.072 4.948c.059 1.277.25 2.147.538 2.873.3.75.7 1.385 1.337 2.021.636.637 1.271 1.037 2.021 1.337.726.288 1.596.479 2.873.538C8.333 23.987 8.74 24 12 24s3.667-.013 4.948-.072c1.277-.059 2.147-.25 2.873-.538.75-.3 1.385-.7 2.021-1.337.637-.636 1.037-1.271 1.337-2.021.288-.726.479-1.596.538-2.873.059-1.281.072-1.688.072-4.948s-.013-3.667-.072-4.948c-.059-1.277-.25-2.147-.538-2.873-.3-.75-.7-1.385-1.337-2.021-.636-.637-1.271-1.037-2.021-1.337-.726-.288-1.596-.479-2.873-.538C15.667.013 15.26 0 12 0zm0 5.838A6.162 6.162 0 1 1 5.838 12 6.162 6.162 0 0 1 12 5.838zm0 10.162A3.999 3.999 0 1 0 8 12a3.999 3.999 0 0 0 4 4zm6.406-11.845a1.44 1.44 0 1 0 1.439 1.439 1.44 1.44 0 0 0-1.439-1.439z&#34;/&gt;&#xA;    &lt;/svg&gt;&#xA;    &lt;span&gt;Instagram&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div&gt;&#xA;  &lt;a href=&#34;https://www.facebook.com/Neptolyn/&#34; target=&#34;_blank&#34; class=&#34;social-link facebook&#34;&gt;&#xA;    &lt;svg role=&#34;img&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;22&#34; height=&#34;22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;title&gt;Facebook&lt;/title&gt;&#xA;      &lt;path d=&#34;M24 12.073c0-6.627-5.373-12-12-12S0 5.446 0 12.073c0 5.99 4.388 10.953 10.125 11.854v-8.385H7.078v-3.469h3.047V9.413c0-3.007 1.792-4.669 4.532-4.669 1.312 0 2.686.235 2.686.235v2.953h-1.512c-1.492 0-1.953.926-1.953 1.875v2.25h3.328l-.531 3.469h-2.797v8.385C19.612 23.026 24 18.062 24 12.073z&#34;/&gt;&#xA;    &lt;/svg&gt;&#xA;    &lt;span&gt;Facebook&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Posts</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>https://neptolyn.com/posts/first-post/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>https://neptolyn.com/posts/first-post/</guid>
       <description>&lt;p&gt;This is my very first blog post on Neptolyn!&lt;/p&gt;&#xA;&lt;p&gt;Here I’ll share updates on builds, tech experiments, and anything cool I discover.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/services/</link>
+      <link>https://neptolyn.com/services/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/</guid>
+      <guid>https://neptolyn.com/services/</guid>
       <description>&lt;h2 id=&#34;services&#34; class=&#34;relative group&#34;&gt;Services &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#services&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Custom PC builds, and troubleshooting.&lt;/p&gt;</description>
     </item>
   </channel>
