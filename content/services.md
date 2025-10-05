@@ -6,4 +6,4 @@ draft: false
 
 ## Services
 
-This is the services page. You can describe the services you offer here.
+Custom PC builds, and troubleshooting.

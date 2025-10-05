@@ -1,0 +1,16 @@
+<header class="site-header" style="display:flex; align-items:center; justify-content:space-between; padding:1rem 2rem;">
+  <!-- Left: Logo and site title -->
+  <a href="{{ "/" | relURL }}" class="logo-link" style="display:flex; align-items:center; gap:10px; text-decoration:none; color:inherit;">
+    <img src="{{ "images/logo.png" | relURL }}" alt="Neptolyn Logo" style="height:32px; width:auto; vertical-align:middle;">
+    <span style="font-weight:600; font-size:1.1rem;">Neptolyn</span>
+  </a>
+
+  <!-- Right: Main Menu -->
+  <nav class="main-nav">
+    <ul style="display:flex; gap:20px; list-style:none; margin:0; padding:0;">
+      {{ range site.Menus.main }}
+      <li><a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}" style="text-decoration:none;">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

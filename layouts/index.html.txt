@@ -1,0 +1,11 @@
+{{ define "main" }}
+<section class="home">
+  <h1 class="page-title">Home</h1>
+
+  {{ with .Content }}
+    <div class="content">
+      {{ . | safeHTML }}
+    </div>
+  {{ end }}
+</section>
+{{ end }}

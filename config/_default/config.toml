@@ -1,0 +1,77 @@
+baseURL = "https://neptolyn.com/"
+languageCode = "en-us"
+title = "Neptolyn"
+theme = "congo"
+
+[params]
+  description = "Custom PC Builds & Tech Services"
+  defaultTheme = "light"
+  disableThemeToggle = false
+  enableColorSchemeToggle = true
+  defaultColorScheme = "light"
+  favicon = "/images/logo.png"
+
+  # Header configuration
+  [params.header]
+  layout = "basic"
+  showTitle = false        # hide the text next to the logo
+  showLogo = true
+  logo = "images/logo.png"
+  logoAlt = "Neptolyn Logo"
+  logoWidth = 40
+  logoDark = "images/logo.png"    # Optional — same image for dark mode
+
+  # Footer configuration
+  [params.footer]
+    showCopyright = true
+    showThemeBadge = true
+    showAppearanceSwitcher = true
+    showLogo = true
+    logo = "images/logo.png"
+    logoDark = "images/logo.png"
+
+  # Author information (used on homepage + posts)
+  [params.author]
+    name = "Neptolyn"
+    image = "images/logo.png"
+    headline = "Custom PC Builds & Tech Services"
+    bio = "Building high-performance PCs and helping people get the most out of their hardware."
+    links = [
+      { github = "https://github.com/NeptoLyn" },
+      { instagram = "https://instagram.com/neptolyn" },
+      { facebook = "https://facebook.com/neptolyn" }
+    ]
+
+[pagination]
+  pagerSize = 5
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -5,6 +5,6 @@ draft: false
 ---
 
 Welcome to **Neptolyn**!  
-I’m passionate about building PCs, upgrading old systems, and experimenting with gadgets.  
+I’m passionate about building PCs, repurposing older technology, and experimenting with gadgets.  
 
-On this site, I’ll share my builds, ideas, and lessons learned from working with both cutting-edge hardware and repurposed tech.  
+On this site, I’ll share my builds, ideas, and notes learned from working with both cutting-edge hardware and repurposed tech.  
